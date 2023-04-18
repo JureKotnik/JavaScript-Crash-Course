@@ -99,6 +99,13 @@ console.log(a);
 // console.log((500).toString());
 // console.log(Boolean(10)); // null undefined 0 '' NaN in booelan return false
 
+//Equality
+
+const var1 = null;
+const var2 = undefined;
+console.log(var1 == var2);
+console.log(var1 === var2);
+
 
 
 
