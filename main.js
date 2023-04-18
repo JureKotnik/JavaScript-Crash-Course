@@ -54,3 +54,35 @@ a = 'lalala';
 a = true;
 console.log(a);
 */
+
+
+
+//Operators
+
+let x = 10;
+let y = 5;
+console.log(x % y);
+console.log(++x);
+console.log(--y);
+
+console.log(x > y);
+
+const isValidNumber = x > 20 || 8 > y;
+console.log(isValidNumber);
+
+const isValid = false;
+console.log(!isValid);
+
+console.log('Jure ' + 'Kotnik');
+
+const isEven = 10 % 2 === 0 ? true : false;
+console.log(isEven);
+
+
+
+
+
+
+
+
+
