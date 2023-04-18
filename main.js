@@ -141,29 +141,49 @@ console.log(a);
 
 //Looping code
 
-for(let i = 1; i <= 5; i++){
-    console.log('Iteration number ' + i);
+// for(let i = 1; i <= 5; i++){
+//     console.log('Iteration number ' + i);
+// }
+
+// let i = 1;
+// while(i <= 5){
+//     console.log('Iteration number ' + i);
+//     i++;
+// }
+
+// let k = 6;
+// do{
+//     console.log('Iteration number ' + k);
+// }
+// while(k <= 5);
+
+// const numArray = [1, 2, 3, 4, 5];
+// for(const num of numArray){
+//     console.log('Iteration number ' + num);
+// }
+
+
+
+//Functions
+
+
+function greet(username){
+    console.log('good morning ' + username);
 }
 
-let i = 1;
-while(i <= 5){
-    console.log('Iteration number ' + i);
-    i++;
+greet('Bruce');
+greet('Clark');
+greet('Diana');
+
+function add(a, b){
+    return a + b;
 }
 
-let k = 6;
-do{
-    console.log('Iteration number ' + k);
-}
-while(k <= 5);
+const arrowSum = (a, b) => a + b;
+const addFive = (num) => num + 5;
 
-const numArray = [1, 2, 3, 4, 5];
-for(const num of numArray){
-    console.log('Iteration number ' + num);
-}
-
-
-
+const sum = arrowSum(5, 10);
+console.log(sum);
 
 
 
