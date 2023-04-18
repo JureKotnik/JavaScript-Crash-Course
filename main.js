@@ -59,24 +59,47 @@ console.log(a);
 
 //Operators
 
-let x = 10;
-let y = 5;
-console.log(x % y);
-console.log(++x);
-console.log(--y);
+// let x = 10;
+// let y = 5;
+// console.log(x % y);
+// console.log(++x);
+// console.log(--y);
 
-console.log(x > y);
+// console.log(x > y);
 
-const isValidNumber = x > 20 || 8 > y;
-console.log(isValidNumber);
+// const isValidNumber = x > 20 || 8 > y;
+// console.log(isValidNumber);
 
-const isValid = false;
-console.log(!isValid);
+// const isValid = false;
+// console.log(!isValid);
 
-console.log('Jure ' + 'Kotnik');
+// console.log('Jure ' + 'Kotnik');
 
-const isEven = 10 % 2 === 0 ? true : false;
-console.log(isEven);
+// const isEven = 10 % 2 === 0 ? true : false;
+// console.log(isEven);
+
+
+
+
+// Type conversion
+
+
+// console.log(true + '3');
+// console.log('4' - '2');
+// console.log('4' * '2');
+// console.log('4' / '2');
+// console.log('Jure' - 'Kotnik');
+// console.log('5' - null);
+// console.log(5 + undefined);
+
+// console.log(Number(''));
+// console.log(parseInt('5'));
+// console.log(parseFloat('3.14'));
+// console.log(String(500));
+// console.log((500).toString());
+// console.log(Boolean(10)); // null undefined 0 '' NaN in booelan return false
+
+
 
 
 
