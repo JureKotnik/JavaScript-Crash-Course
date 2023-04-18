@@ -167,23 +167,44 @@ console.log(a);
 //Functions
 
 
-function greet(username){
-    console.log('good morning ' + username);
+// function greet(username){
+//     console.log('good morning ' + username);
+// }
+
+// greet('Bruce');
+// greet('Clark');
+// greet('Diana');
+
+// function add(a, b){
+//     return a + b;
+// }
+
+// const arrowSum = (a, b) => a + b;
+// const addFive = (num) => num + 5;
+
+// const sum = arrowSum(5, 10);
+// console.log(sum);
+
+
+
+//Scope
+
+const myNum = 100;
+const myName = 'Superman';
+
+if(true){
+    const myName = 'Jure';
+    console.log(myName);
+    console.log(myNum);
 }
 
-greet('Bruce');
-greet('Clark');
-greet('Diana');
-
-function add(a, b){
-    return a + b;
+function testFn(){
+    const myName = 'Jure';
+    console.log(myName);
+    console.log(myNum);
 }
 
-const arrowSum = (a, b) => a + b;
-const addFive = (num) => num + 5;
-
-const sum = arrowSum(5, 10);
-console.log(sum);
+testFn();
 
 
 
