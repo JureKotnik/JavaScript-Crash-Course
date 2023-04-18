@@ -101,11 +101,43 @@ console.log(a);
 
 //Equality
 
-const var1 = null;
-const var2 = undefined;
-console.log(var1 == var2);
-console.log(var1 === var2);
+// const var1 = null;
+// const var2 = undefined;
+// console.log(var1 == var2);
+// console.log(var1 === var2);
 
+
+
+
+//Conditional Statements
+
+
+const num = 0;
+if(num > 0){
+    console.log('Number is positive');
+} else if(num < 0){
+        console.log('Number is not positive');    
+} else{
+    console.log('Number is zero');
+}
+
+const color = 'blue';
+
+switch(color){
+    case 'red':
+        console.log('color is red');
+        break;
+    case 'blue':
+        console.log('color is blue');
+        break;
+    case 'green':
+        console.log('color is green');
+        break;
+        default:
+            console.log('Not a valid color');
+}
+
+//Looping code
 
 
 
